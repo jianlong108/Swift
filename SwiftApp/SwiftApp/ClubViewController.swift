@@ -1,6 +1,5 @@
-
 //
-//  DiscoveryViewController.swift
+//  ClubViewController.swift
 //  SwiftApp
 //
 //  Created by Wangjianlong on 16/1/18.
@@ -8,9 +7,11 @@
 //
 
 import UIKit
-class DiscoveryViewController: UITableViewController {
+class ClubViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = RandomColor()
+        
     }
+
 }

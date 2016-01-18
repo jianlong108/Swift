@@ -1,6 +1,5 @@
-
 //
-//  DiscoveryViewController.swift
+//  CarViewController.swift
 //  SwiftApp
 //
 //  Created by Wangjianlong on 16/1/18.
@@ -8,9 +7,10 @@
 //
 
 import UIKit
-class DiscoveryViewController: UITableViewController {
+class CarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = RandomColor()
+        
     }
 }

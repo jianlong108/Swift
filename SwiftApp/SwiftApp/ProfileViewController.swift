@@ -1,6 +1,5 @@
-
 //
-//  DiscoveryViewController.swift
+//  ProfileViewController.swift
 //  SwiftApp
 //
 //  Created by Wangjianlong on 16/1/18.
@@ -8,7 +7,7 @@
 //
 
 import UIKit
-class DiscoveryViewController: UITableViewController {
+class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = RandomColor()

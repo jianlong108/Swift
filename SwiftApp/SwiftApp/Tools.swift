@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//typealias RandomColor(r,g,b,a) UIColor.init(red: r, green: g, blue: b, alpha: a)
+//typealias RandomColor(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat) UIColor.init(red: r, green: g, blue: b, alpha: a)
 func RandomColor()->UIColor{
     let color:CGFloat = CGFloat(CGFloat(random())/CGFloat(RAND_MAX))
     let color1:CGFloat = CGFloat(CGFloat(random())/CGFloat(RAND_MAX))

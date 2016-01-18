@@ -14,6 +14,9 @@
 		34E5B9121C4D300E0078F9FB /* HomeViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5B9111C4D300E0078F9FB /* HomeViewControll.swift */; };
 		34E5B9141C4D30650078F9FB /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5B9131C4D30650078F9FB /* DiscoveryViewController.swift */; };
 		34E5B9161C4D31B30078F9FB /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5B9151C4D31B30078F9FB /* Tools.swift */; };
+		34E5B9181C4D3A7F0078F9FB /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5B9171C4D3A7F0078F9FB /* ClubViewController.swift */; };
+		34E5B91A1C4D3AC60078F9FB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5B9191C4D3AC60078F9FB /* ProfileViewController.swift */; };
+		34E5B91C1C4D3AF10078F9FB /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5B91B1C4D3AF10078F9FB /* CarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		34E5B9111C4D300E0078F9FB /* HomeViewControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControll.swift; sourceTree = "<group>"; };
 		34E5B9131C4D30650078F9FB /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		34E5B9151C4D31B30078F9FB /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		34E5B9171C4D3A7F0078F9FB /* ClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
+		34E5B9191C4D3AC60078F9FB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		34E5B91B1C4D3AF10078F9FB /* CarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,10 @@
 				34C7215F1C4A45AF008FAC1C /* Assets.xcassets */,
 				34C721641C4A45AF008FAC1C /* Info.plist */,
 				34E5B9111C4D300E0078F9FB /* HomeViewControll.swift */,
+				34E5B9171C4D3A7F0078F9FB /* ClubViewController.swift */,
+				34E5B91B1C4D3AF10078F9FB /* CarViewController.swift */,
 				34E5B9131C4D30650078F9FB /* DiscoveryViewController.swift */,
+				34E5B9191C4D3AC60078F9FB /* ProfileViewController.swift */,
 				34E5B9151C4D31B30078F9FB /* Tools.swift */,
 			);
 			path = SwiftApp;
@@ -140,10 +149,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E5B9101C4D1C680078F9FB /* JLNavgationController.swift in Sources */,
+				34E5B91C1C4D3AF10078F9FB /* CarViewController.swift in Sources */,
 				34E5B90E1C4D19780078F9FB /* JLTabbarControlle.swift in Sources */,
 				34E5B9121C4D300E0078F9FB /* HomeViewControll.swift in Sources */,
 				34E5B9161C4D31B30078F9FB /* Tools.swift in Sources */,
+				34E5B9181C4D3A7F0078F9FB /* ClubViewController.swift in Sources */,
 				34C721591C4A45AF008FAC1C /* AppDelegate.swift in Sources */,
+				34E5B91A1C4D3AC60078F9FB /* ProfileViewController.swift in Sources */,
 				34E5B9141C4D30650078F9FB /* DiscoveryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
