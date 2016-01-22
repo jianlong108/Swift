@@ -19,24 +19,15 @@ class JLTabbarController: UITabBarController {
     }
     
     func creatChildVc() {
-        let homeVc = HomeViewControll()
-        homeVc.tabBarItem = UITabBarItem.init(title: "", image:UIImage.init(named: "item01") , selectedImage: UIImage.init(named: "item01_selected"))
-        self.addChildViewController(homeVc)
-        
-        let clubVc = ClubViewController()
-        clubVc.tabBarItem = UITabBarItem.init(title: "", image:UIImage.init(named: "item02") , selectedImage: UIImage.init(named: "item02_selected"))
-        self.addChildViewController(clubVc)
-        
-        let carVc = CarViewController()
-        carVc.tabBarItem = UITabBarItem.init(title: "", image:UIImage.init(named: "item03") , selectedImage: UIImage.init(named: "item03_selected"))
-        self.addChildViewController(carVc)
-        
-        let discoveryVc = DiscoveryViewController()
-        discoveryVc.tabBarItem = UITabBarItem.init(title: "", image:UIImage.init(named: "item04") , selectedImage: UIImage.init(named: "item04_selected"))
-        self.addChildViewController(discoveryVc)
-        
-        let profileVc = HomeViewControll()
-        profileVc.tabBarItem = UITabBarItem.init(title: "", image:UIImage.init(named: "item05") , selectedImage: UIImage.init(named: "item05_selected"))
-        self.addChildViewController(profileVc)
+        addChildViewController(vcName:HomeViewControll.self, title: "", imageName: "item01")
+         addChildViewController(vcName:ClubViewController.self, title: "", imageName: "item02")
+         addChildViewController(vcName:CarViewController.self, title: "", imageName: "item03")
+         addChildViewController(vcName:DiscoveryViewController.self, title: "", imageName: "item04")
+         addChildViewController(vcName:HomeViewControll.self, title: "", imageName: "item05")
+    }
+    func addChildViewController(vcName vcName:UIViewController.Type,title:String,imageName:String) {
+        let vc :UIViewController = vcName.self.init()
+        vc.tabBarItem = UITabBarItem.init(title: title, image:UIImage.init(named: imageName) , selectedImage: UIImage.init(named: imageName+"_selected"))
+        self.addChildViewController(vc)
     }
 }
