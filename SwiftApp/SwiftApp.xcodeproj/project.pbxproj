@@ -10,12 +10,12 @@
 		34749F411C53E6E60085C3D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F3D1C53E6E60085C3D7 /* AppDelegate.swift */; };
 		34749F421C53E6E60085C3D7 /* JLNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F3E1C53E6E60085C3D7 /* JLNavgationController.swift */; };
 		34749F431C53E6E60085C3D7 /* JLTabbarControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F3F1C53E6E60085C3D7 /* JLTabbarControlle.swift */; };
-		34749F441C53E6E60085C3D7 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F401C53E6E60085C3D7 /* Tools.swift */; };
 		34749F501C53E6F00085C3D7 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F461C53E6F00085C3D7 /* DiscoveryViewController.swift */; };
 		34749F511C53E6F00085C3D7 /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F491C53E6F00085C3D7 /* ClubViewController.swift */; };
 		34749F521C53E6F00085C3D7 /* HomeViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F4B1C53E6F00085C3D7 /* HomeViewControll.swift */; };
 		34749F531C53E6F00085C3D7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F4D1C53E6F00085C3D7 /* ProfileViewController.swift */; };
 		34749F541C53E6F00085C3D7 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F4F1C53E6F00085C3D7 /* CarViewController.swift */; };
+		34749F561C53E7720085C3D7 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34749F551C53E7720085C3D7 /* Tools.swift */; };
 		34C721601C4A45AF008FAC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C7215F1C4A45AF008FAC1C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +23,12 @@
 		34749F3D1C53E6E60085C3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34749F3E1C53E6E60085C3D7 /* JLNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLNavgationController.swift; sourceTree = "<group>"; };
 		34749F3F1C53E6E60085C3D7 /* JLTabbarControlle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLTabbarControlle.swift; sourceTree = "<group>"; };
-		34749F401C53E6E60085C3D7 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		34749F461C53E6F00085C3D7 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		34749F491C53E6F00085C3D7 /* ClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
 		34749F4B1C53E6F00085C3D7 /* HomeViewControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControll.swift; sourceTree = "<group>"; };
 		34749F4D1C53E6F00085C3D7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		34749F4F1C53E6F00085C3D7 /* CarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		34749F551C53E7720085C3D7 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		34C721551C4A45AF008FAC1C /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C7215F1C4A45AF008FAC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34C721641C4A45AF008FAC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +51,6 @@
 				34749F3D1C53E6E60085C3D7 /* AppDelegate.swift */,
 				34749F3E1C53E6E60085C3D7 /* JLNavgationController.swift */,
 				34749F3F1C53E6E60085C3D7 /* JLTabbarControlle.swift */,
-				34749F401C53E6E60085C3D7 /* Tools.swift */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -67,6 +66,7 @@
 		34749F471C53E6F00085C3D7 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				34749F551C53E7720085C3D7 /* Tools.swift */,
 			);
 			path = "工具";
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 				34749F411C53E6E60085C3D7 /* AppDelegate.swift in Sources */,
 				34749F511C53E6F00085C3D7 /* ClubViewController.swift in Sources */,
 				34749F421C53E6E60085C3D7 /* JLNavgationController.swift in Sources */,
-				34749F441C53E6E60085C3D7 /* Tools.swift in Sources */,
+				34749F561C53E7720085C3D7 /* Tools.swift in Sources */,
 				34749F531C53E6F00085C3D7 /* ProfileViewController.swift in Sources */,
 				34749F501C53E6F00085C3D7 /* DiscoveryViewController.swift in Sources */,
 			);
